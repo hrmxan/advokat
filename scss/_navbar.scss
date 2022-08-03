@@ -195,6 +195,7 @@ header {
       display: flex;
       flex-direction: column;
       margin-top: 16px;
+      padding: 8px;
       li {
         display: flex;
         align-items: center;
@@ -202,6 +203,12 @@ header {
           display: flex;
           align-items: center;
           padding: 20px 32px;
+          width: 100%;
+          transition: 0.5s ease;
+          &:hover {
+            background: #FBFBFB;
+            color: #006BE8;
+          }
         }
       }
     }

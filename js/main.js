@@ -8,4 +8,7 @@ try {
   closeSidebar.addEventListener('click', function() {
     sidebar.classList.add('close');
   } );
+  sidebar.addEventListener('click', function(e) {
+    sidebar.classList.add('close');
+  } );
 } catch (e) {}

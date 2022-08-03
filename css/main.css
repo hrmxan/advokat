@@ -271,6 +271,7 @@ header nav .tools .colapse__button span {
   display: flex;
   flex-direction: column;
   margin-top: 16px;
+  padding: 8px;
 }
 .sidebar__body .navBar__colapse li {
   display: flex;
@@ -280,6 +281,12 @@ header nav .tools .colapse__button span {
   display: flex;
   align-items: center;
   padding: 20px 32px;
+  width: 100%;
+  transition: 0.5s ease;
+}
+.sidebar__body .navBar__colapse li a:hover {
+  background: #FBFBFB;
+  color: #006BE8;
 }
 .sidebar.close {
   opacity: 0;
